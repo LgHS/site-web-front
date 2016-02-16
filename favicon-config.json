@@ -1,0 +1,42 @@
+{
+  "masterPicture": "src/favicon/favicon.png",
+  "design": {
+    "ios": {
+      "pictureAspect": "backgroundAndMargin",
+      "backgroundColor": "#ffffff",
+      "margin": "14%"
+    },
+    "desktopBrowser": {},
+    "windows": {
+      "pictureAspect": "whiteSilhouette",
+      "backgroundColor": "#00aba9",
+      "onConflict": "override"
+    },
+    "androidChrome": {
+      "pictureAspect": "backgroundAndMargin",
+      "margin": "17%",
+      "backgroundColor": "#ffffff",
+      "themeColor": "#ffffff",
+      "manifest": {
+        "name": "LgHS",
+        "display": "browser",
+        "orientation": "notSet",
+        "onConflict": "override",
+        "declared": true
+      }
+    },
+    "safariPinnedTab": {
+      "pictureAspect": "silhouette",
+      "themeColor": "#5bbad5"
+    }
+  },
+  "settings": {
+    "compression": 4,
+    "scalingAlgorithm": "Lanczos",
+    "errorOnImageTooSmall": false
+  },
+  "versioning": {
+    "paramName": "v",
+    "paramValue": "OmmGkLqGNd"
+  }
+}

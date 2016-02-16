@@ -1,0 +1,27 @@
+footer#page-footer {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 50rem;
+  position: relative;
+  padding-top: 1rem;
+
+  p {
+    font-size: $font-size-small;
+    margin-bottom: .5em;
+  }
+
+  nav.social {
+    margin-top: 1rem;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 200px;
+    height: 1px;
+    background-color: $text-color;
+  }
+}

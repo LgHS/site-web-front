@@ -9,9 +9,13 @@
     "svg": "svgo -f src/svg -o web/dist/svg",
     "img": "imagemin src/images web/dist/images -p",
     "serve": "browser-sync start --server 'web/' --files 'web/'",
-    "watch:css": "onchange 'src/scss/*.scss' -- npm run scss",
-    "build": "npm run scss && npm run svg && npm run img",
+    "watch:css": "onchange 'src/scss/**/*.scss' -- npm run scss",
     "watch": "parallelshell 'npm run build' 'npm run serve' 'npm run watch:css'",
+    "fa:copy-fonts": "cp node_modules/font-awesome/fonts/fontawesome-webfont.* web/dist/fonts",
+    "favicon:generate": "real-favicon generate favicon-config.json favicon-data.json web/",
+    "favicon:inject": "real-favicon inject favicon-data.json web/ web/index.html",
+    "favicon": "npm run favicon:generate && npm run favicon:inject",
+    "build": "npm run scss && npm run svg && npm run img && npm run favicon && npm run fa:copy-fonts",
     "postinstall": "npm run build"
   },
   "repository": {
@@ -29,6 +33,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
+    "cli-real-favicon": "0.0.5",
+    "font-awesome": "^4.5.0",
     "imagemin-cli": "^2.1.0",
     "node-sass": "^3.4.2",
     "onchange": "^2.0.0",

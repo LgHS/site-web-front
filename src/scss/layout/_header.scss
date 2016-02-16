@@ -1,0 +1,45 @@
+header#page-header {
+  background-color: #30AAB2;
+  background-image: linear-gradient(-45deg, #154258 5%, #30AAB2 55%, #BBD1B9 100%);
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+
+  @media(min-width: $screen-sm-min) {
+      padding: 100px 0;
+  }
+
+  .content {
+    margin: 0 auto;
+    text-indent: -9000px;
+    background: url(../svg/logo.svg) no-repeat center center;
+    max-width: 90%;
+    background-size: contain;
+    height: 130px;
+
+    @media(min-width: $screen-xs-min) {
+      height: 180px;
+
+      @media(min-width: $screen-sm-min) {
+        height: 270px;
+      }
+    }
+
+    h1, h2 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  // border
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: url(../svg/tooth.svg) repeat-x bottom left;
+  }
+}

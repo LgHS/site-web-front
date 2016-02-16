@@ -1,0 +1,11 @@
+html {
+  font-size: $font-size-base;
+
+  @media(min-width: $screen-md-min) {
+      font-size: 18px;
+  }
+
+  body {
+    padding-bottom: 100px;
+  }
+}
