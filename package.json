@@ -1,0 +1,38 @@
+{
+  "name": "lghs-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o web/dist/css src/scss",
+    "svg": "svgo -f src/svg -o web/dist/svg",
+    "img": "imagemin src/images web/dist/images -p",
+    "serve": "browser-sync start --server 'web/' --files 'web/'",
+    "watch:css": "onchange 'src/scss/*.scss' -- npm run scss",
+    "build": "npm run scss && npm run svg && npm run img",
+    "watch": "parallelshell 'npm run build' 'npm run serve' 'npm run watch:css'",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LgHS/Site-Web-Front.git"
+  },
+  "author": "Jonathan Berger <jonathan@paperpixel.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LgHS/Site-Web-Front/issues"
+  },
+  "homepage": "https://github.com/LgHS/Site-Web-Front#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "imagemin-cli": "^2.1.0",
+    "node-sass": "^3.4.2",
+    "onchange": "^2.0.0",
+    "parallelshell": "^2.0.0",
+    "svgo": "^0.6.1"
+  }
+}
