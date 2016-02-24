@@ -7,5 +7,16 @@ html {
 
   body {
     padding-bottom: 100px;
+
+    // border
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 10px;
+      background: url(../svg/tooth.svg) repeat-x top left;
+    }
   }
 }

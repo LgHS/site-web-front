@@ -1,14 +1,7 @@
 header#page-header {
-  background-color: #30AAB2;
-  background-image: linear-gradient(-45deg, #154258 5%, #30AAB2 55%, #BBD1B9 100%);
-  color: #fff;
   text-align: center;
   padding: 50px 0;
   position: relative;
-
-  @media(min-width: $screen-sm-min) {
-      padding: 100px 0;
-  }
 
   .content {
     margin: 0 auto;
@@ -16,13 +9,16 @@ header#page-header {
     background: url(../svg/logo.svg) no-repeat center center;
     max-width: 90%;
     background-size: contain;
-    height: 130px;
+    height: 125px;
 
     @media(min-width: $screen-xs-min) {
-      height: 180px;
+      max-width: 100%;
+      width: 100%;
+      //height: auto;
+      //height: 180px;
 
       @media(min-width: $screen-sm-min) {
-        height: 270px;
+        //height: 270px;
       }
     }
 
@@ -33,13 +29,13 @@ header#page-header {
   }
 
   // border
-  &:after {
+  &:before {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 10px;
-    background: url(../svg/tooth.svg) repeat-x bottom left;
+    height: 1px;
+    background-color: #000;
   }
 }
