@@ -29,13 +29,13 @@ header#page-header {
   }
 
   // border
-  &:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background-color: #000;
-  }
+  //&:before {
+  //  content: '';
+  //  position: absolute;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
+  //  height: 1px;
+  //  background-color: #000;
+  //}
 }
