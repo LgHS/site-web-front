@@ -36,6 +36,7 @@
     "cli-real-favicon": "0.0.5",
     "font-awesome": "^4.5.0",
     "imagemin-cli": "^2.1.0",
+    "mousetrap": "^1.5.3",
     "node-sass": "^3.4.2",
     "onchange": "^2.0.0",
     "parallelshell": "^2.0.0",
