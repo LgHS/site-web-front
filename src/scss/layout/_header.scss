@@ -5,7 +5,6 @@ header#page-header {
 
   .content {
     margin: 0 auto;
-    text-indent: -9000px;
     background: url(../svg/logo.svg) no-repeat center center;
     max-width: 90%;
     background-size: contain;
@@ -25,17 +24,38 @@ header#page-header {
     h1, h2 {
       margin: 0;
       padding: 0;
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        text-indent: -9000px;
+      }
     }
   }
 
-  // border
-  //&:before {
-  //  content: '';
-  //  position: absolute;
-  //  bottom: 0;
-  //  left: 0;
-  //  right: 0;
-  //  height: 1px;
-  //  background-color: #000;
+  //nav#main-nav {
+  //  ul {
+  //    padding: 0;
+  //    margin: 0;
+  //    list-style: none;
+  //    text-align: right;
+  //
+  //    li {
+  //      display: inline;
+  //
+  //      a {
+  //        display: inline-block;
+  //        background-color: $brand-primary;
+  //        color: #fff;
+  //        text-transform: uppercase;
+  //        padding: 5px 10px;
+  //        font-weight: bold;
+  //      }
+  //    }
+  //  }
   //}
 }

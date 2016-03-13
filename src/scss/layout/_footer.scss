@@ -1,7 +1,8 @@
 footer#page-footer {
-  margin: 0 auto;
+  margin: 100px auto 0;
   position: relative;
   padding-top: 1rem;
+  text-align: center;
 
   p {
     font-size: $font-size-small;
@@ -16,7 +17,8 @@ footer#page-footer {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    margin-left: -100px;
     width: 100%;
     max-width: 200px;
     height: 1px;
