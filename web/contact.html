@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/css/main.css">
-    <link href="https://s3.amazonaws.com/stacktodoapi/0_0_4/stacktodo_full.min.css" rel="stylesheet" type="text/css">
     <!-- BEGIN Favicons declaration -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=OmmGkLqGNd">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=OmmGkLqGNd">
@@ -33,88 +32,69 @@
 <body>
     <div class="container">
         <header id="page-header">
-            <!--<div class="row">-->
-            <!--<div class="col-sm-6">-->
-            <div class="content">
-                <h1><a href="/" title="Retour à la page d'accueil">Liege Hackerspace</a></h1>
-                <h2><a href="/" title="Retour à la page d'accueil">Learn \ Make \ Share</a></h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="logo">
+                        <h1><a href="/" title="Retour à la page d'accueil">Liege Hackerspace</a></h1>
+                        <h2><a href="/" title="Retour à la page d'accueil">Learn \ Make \ Share</a></h2>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <nav id="main-nav">
+                        <ul>
+                            <li>
+                                <a href="/" title="Voir notre wiki">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://wiki.lghs.be" title="Voir notre wiki">
+                                    Wiki
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="/contact.html" title="Contactez-nous">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <!--</div>-->
-            <!--<div class="col-sm-6">-->
-            <!--<nav id="main-nav">-->
-            <!--<ul>-->
-            <!--<li>-->
-            <!--<a href="/" title="Voir notre wiki">-->
-            <!--Home-->
-            <!--</a>-->
-            <!--</li>-->
-            <!--<li>-->
-            <!--<a href="http://wiki.lghs.be" title="Voir notre wiki">-->
-            <!--Wiki-->
-            <!--</a>-->
-            <!--</li>-->
-            <!--</ul>-->
-            <!--</nav>-->
-            <!--</div>-->
-            <!--</div>-->
         </header>
         <main id="page-main">
             <div class="row">
                 <div class="col-sm-8">
                     <div class="row">
                         <article class="col-sm-12">
-                            <h3>Contact</h3>
-                                <form id="s2do-form" action="#" method="POST">
-                                <div class="form-group">
-                                <label>Nom</label>
-                                <input type="text" name="nom">
-                                </div>
-                                <div class="form-group">
-                                <label>Email</label>
-                                <input type="text" name="email">
-                                </div>
-                                <div class="form-group">
-                                <label>Message</label>
-                                <textarea name="message"></textarea>
-                                </div>
-                                <button type="submit">Envoyer</button>
-                                </form>
-                                <script type="text/javascript" src="https://s3.amazonaws.com/stacktodoapi/0_0_4/stacktodo_full.min.js"></script>
-                                <script type="text/javascript">new window.stacktodo.ui.SlackForm(document.getElementById('s2do-form'), { form: 'd0dbab76-2ebb-469a-92c0-303954626825' });</script>
+                            <h3>Contactez-nous</h3>
+                            <form id="s2do-form" action="#" method="POST">
+                                <p class="form-group">
+                                    <label for="name">Nom</label>
+                                    <input type="text" name="nom" class="form-control" id="name" required>
+                                </p>
+                                <p class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" class="form-control" id="email" required>
+                                </p>
+                                <p class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" class="form-control" id="message" required></textarea>
+                                </p>
+                                <p class="text-right">
+                                    <button type="submit" class="btn btn-primary">
+                                        <i class="fa fa-rocket"></i>
+                                        Envoyer
+                                    </button>
+                                </p>
+                            </form>
+                            <script type="text/javascript" src="https://s3.amazonaws.com/stacktodoapi/0_0_4/stacktodo_full.min.js"></script>
+                            <script type="text/javascript">new window.stacktodo.ui.SlackForm(document.getElementById('s2do-form'), { form: 'd0dbab76-2ebb-469a-92c0-303954626825' });</script>
                         </article>
                     </div>
 
                 </div>
                 <div class="col-sm-4">
-                    <article>
-                        <h3>Wiki</h3>
-                        <p>
-                            Un Wiki est disponible, vous pouvez déjà y retrouver entre autres nos statuts, PV de réunion, un début de guidelines et de R.O.I.
-                        </p>
-                        <p>
-                            <a href="http://wiki.lghs.be" title="Voir notre Wiki">
-                                <img src="http://wiki.lghs.be/lib/tpl/lghs/images/logo.png" width="36" height="36" />
-                                C'est par ici.
-                            </a>
-                        </p>
-                    </article>
-                    <article>
-                        <h3>Prochains événements</h3>
-                        <ul class="pretty-list">
-                            <li>
-                                <strong>16/03</strong>
-                                <a href="https://www.facebook.com/events/1668345536748061/" title="Voir l'événement sur Facebook">
-                                    Inauguration
-                                </a>
-                            </li>
-                            <li>
-                                <strong>19/03</strong>
-                                <a href="https://www.facebook.com/events/1668345536748061/" title="Voir l'événement sur Facebook">
-                                    Inauguration
-                                </a>
-                            </li>
-                        </ul>
-                    </article>
                     <article>
                         <h3>Heures d'ouverture</h3>
                         <p>

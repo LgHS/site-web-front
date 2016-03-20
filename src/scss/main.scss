@@ -9,6 +9,9 @@ $fa-font-path: '../fonts/';
 // mixins
 @import 'mixins/hexagon';
 
+// plugins
+@import 'plugins/s2do_form';
+
 // layout
 @import 'layout/base';
 @import 'layout/header';
@@ -17,3 +20,4 @@ $fa-font-path: '../fonts/';
 
 // components
 @import 'components/social-nav';
+@import 'components/form';
