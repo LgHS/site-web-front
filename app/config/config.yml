@@ -1,0 +1,5 @@
+framework:
+    secret: DILIGENTHORSEPACKINGSTUFFUNICORNLOVE
+    templating:
+        engines: ['twig']
+    profiler: { only_exceptions: false }
