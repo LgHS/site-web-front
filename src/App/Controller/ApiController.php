@@ -1,7 +1,7 @@
 <?php
 namespace App\Controller;
 
-use App\ApiScheduler;
+use App\Scheduler;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -13,8 +13,8 @@ class ApiController extends Controller
 	 * @Route("/api/")
 	 */
 	public function indexAction() {
-		/** @var ApiScheduler $scheduler */
-		$scheduler = $this->container->get('api_scheduler');
+		/** @var Scheduler $scheduler */
+		$scheduler = $this->container->get('scheduler');
 
 		$template = $this->renderView('api/index.json.twig', array(
 			'isOpened' => $scheduler->isOpened()

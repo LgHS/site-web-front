@@ -1,10 +1,7 @@
 <?php
 namespace App;
 
-class ApiScheduler {
-	function __construct() {
-	}
-
+class Scheduler {
 	public function isOpened() {
 		$time = time();
 //		$time = 1458757093; // wednesday

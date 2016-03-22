@@ -10,9 +10,6 @@ class FrontController extends Controller
 	 * @Route("/")
 	 */
 	public function homeAction() {
-		$scheduler = $this->get('api_scheduler');
-		$scheduler->isOpened();
-
 		return $this->render('front/pages/index.html.twig');
 	}
 
