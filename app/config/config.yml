@@ -3,3 +3,6 @@ framework:
     templating:
         engines: ['twig']
     profiler: { only_exceptions: false }
+twig:
+    globals:
+        scheduler: '@scheduler'

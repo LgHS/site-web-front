@@ -41,63 +41,7 @@
                     {% block main %}
                     {% endblock %}
                 </main>
-                <aside class="col-sm-4">
-                    {% block aside %}
-                        <article>
-                            <h3>Wiki</h3>
-                            <p>
-                                Un Wiki est disponible, vous pouvez déjà y retrouver entre autres nos statuts, PV de réunion, un début de guidelines et de R.O.I.
-                            </p>
-                            <p>
-                                <a href="http://wiki.lghs.be" title="Voir notre Wiki">
-                                    <img src="http://wiki.lghs.be/lib/tpl/lghs/images/logo.png" width="36" height="36">
-                                    C'est par ici.
-                                </a>
-                            </p>
-                        </article>
-                        <article>
-                            <h3>Heures d'ouverture</h3>
-                            <p>
-                                Le mercredi: de 19h à 23h <br>
-                                Le samedi: de 13h à 18h
-                            </p>
-                            <p>
-                                Ouvert: <span class="label label-danger">NON</span>
-                            </p>
-                            <p>
-                                <small>Le lieu sera accessible à partir du 23 mars 2016.</small>
-                            </p>
-                        </article>
-                        <article>
-                            <h3>Le lieu</h3>
-                            <p>
-                                <a href="https://www.openstreetmap.org/?mlat=50.63837&mlon=5.58331#map=17/50.63837/5.58331" title="Voir le plan sur OpenStreetMap">
-                                    <img src="./dist/images/map.jpg" alt="Plan d'accès au lieu" title="Accéder à LgHS">
-                                </a>
-                            </p>
-                            <h4>Liege Hackerspace</h4>
-                            <p>
-                                Rue Louis Jamme 11, 4020 Liège.
-                            </p>
-                            <h4>Comment s'y rendre</h4>
-                            <h5>En bus</h5>
-                            <p>
-                                Ligne 4, arrêt Rue J. d'Outremeuse <br>
-                                Lignes 10 ou 13, arrêt Rue Pont d'Amercoeur<br>
-                                Lignes 138, 140 ou 240, arrêt Liège Pont d'Amercoeur
-                            </p>
-                            <h5>En train</h5>
-                            <p>
-                                Arrêt Gare des Guillemins puis prendre le 4 direction Saint-Lambert.
-                                Sortir à l'arrêt Rue J. d'Outremeuse
-                            </p>
-                            <h5>En vélo</h5>
-                            <p>
-                                Un espace extérieur est disponible à l'arrière du bâtiment, les vélos sont les bienvenus !
-                            </p>
-                        </article>
-                    {% endblock %}
-                </aside>
+                {% include 'front/sidebar.html.twig' %}
             </div>
         </div>
         {% include "front/footer.html.twig" %}
