@@ -3,3 +3,7 @@ npm-debug.log
 .idea
 
 favicon-data.json
+
+vendor/
+app/cache/
+app/logs/
