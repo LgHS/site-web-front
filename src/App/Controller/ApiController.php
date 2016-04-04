@@ -20,6 +20,10 @@ class ApiController extends Controller
 			'isOpened' => $scheduler->isOpened()
 		));
 
-		return new Response($template, 200, array('Content-Type'=>'application/json'));
+		return new Response($template, 200, array(
+			'Content-Type'=>'application/json',
+			'Access-Control-Allow-Origin' => '*',
+			'Cache-Control' => 'no-cache'
+		));
 	}
 }

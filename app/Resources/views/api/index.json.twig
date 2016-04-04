@@ -1,7 +1,7 @@
 {
     "api": "0.13",
     "space": "Liege Hackerspace",
-    "logo": "http://lghs.be/dist/svg/logo.png",
+    "logo": "http://lghs.be/dist/images/logo.png",
     "url": "http://lghs.be",
     "location": {
         "address": "Rue Louis Jamme 11, 4020 Liege",
@@ -9,12 +9,34 @@
         "lat": 5.583409
     },
     "contact": {
-        "twitter": "@LgHackerSpace"
+        "email": "ping@lghs.be",
+        "irc": "irc://irc.freenode.net/lghs",
+        "twitter": "@LgHackerSpace",
+        "facebook": "https://www.facebook.com/liegehackerspace/"
+    },
+    "feeds": {
+        "wiki": {
+            "type": "rss",
+            "url": "http://wiki.lghs.be/feed.php"
+        }
     },
     "issue_report_channels": [
         "twitter"
     ],
+    "open": {% if isOpened %}true{% else %}false{% endif %},
     "state": {
-        "open": {% if isOpened %}true{% else %}false{% endif %}
-    }
+        "open": {% if isOpened %}true{% else %}false{% endif %},
+        "icon": {
+            "open": "{{ app.request.schemeAndHttpHost }}/dist/images/door-opened.png",
+            "closed": "{{ app.request.schemeAndHttpHost }}/dist/images/door-closed.png"
+        },
+    },
+    "icon": {
+        "open": "{{ app.request.schemeAndHttpHost }}/dist/images/door-opened.png",
+        "closed": "{{ app.request.schemeAndHttpHost }}/dist/images/door-closed.png"
+    },
+    "projects": [
+        "https://github.com/LgHS/",
+        "http://wiki.lghs.be/projet:start"
+    ]
 }
