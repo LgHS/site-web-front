@@ -12,7 +12,7 @@ class Scheduler {
 		$hour = $time['tm_hour'];
 
 		if($day_of_week == 3 && $hour >= 19 && $hour < 23 // wednesday
-		   || $day_of_week == 6 && $hour >= 13 && $hour <= 19) { // saturday
+		   || $day_of_week == 6 && $hour >= 13 && $hour < 19) { // saturday
 			return true;
 		}
 
