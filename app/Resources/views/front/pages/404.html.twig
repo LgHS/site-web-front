@@ -1,0 +1,24 @@
+{% extends 'front/_base.html.twig' %}
+
+{% block title %}Contactez-nous{% endblock %}
+
+{% block main %}
+    <article>
+        <h3>Page non trouvée</h3>
+        <p>
+            La page que vous cherchez n'a pas été trouvée :(
+        </p>
+        <p>
+            Prenez un GIF pour patienter :
+        </p>
+        <p>
+            <img src="http://prestasupertool.com/random-hacker.gif?nocache|300" alt="Random GIF !" />
+        </p>
+    </article>
+{% endblock %}
+
+{% block bottom_scripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="https://s3.amazonaws.com/stacktodoapi/0_0_4/stacktodo_full.min.js"></script>
+    <script type="text/javascript">new window.stacktodo.ui.SlackForm(document.getElementById('s2do-form'), { form: 'd0dbab76-2ebb-469a-92c0-303954626825' });</script>
+{% endblock %}
