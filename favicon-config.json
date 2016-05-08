@@ -1,5 +1,5 @@
 {
-  "masterPicture": "src/favicon/favicon.png",
+  "masterPicture": "src/assets/favicon/favicon.png",
   "design": {
     "ios": {
       "pictureAspect": "backgroundAndMargin",
