@@ -7,5 +7,13 @@
         "psr-4": {
             "": "src/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
+        ],
+        "post-update-cmd": [
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
+        ]
     }
 }
