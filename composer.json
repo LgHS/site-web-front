@@ -10,10 +10,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
+            "php bin/console cache:clear --env=prod"
         ],
         "post-update-cmd": [
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache"
+            "php bin/console cache:clear --env=prod"
         ]
     }
 }
