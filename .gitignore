@@ -8,4 +8,6 @@ vendor/
 app/cache/
 app/logs/
 
+cache/
+
 files/.htaccess
