@@ -8,6 +8,10 @@ html {
   body {
     padding-bottom: 100px;
 
+    & > .container {
+      position: relative;
+    }
+
     // border
     &:before {
       content: '';
