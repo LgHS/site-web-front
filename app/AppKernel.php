@@ -30,8 +30,7 @@ class AppKernel extends Kernel
 		return $bundles;
 	}
 
-	protected function configureContainer(ContainerBuilder $c, LoaderInterface $loader)
-	{
+	protected function configureContainer(ContainerBuilder $c, LoaderInterface $loader) {
 		$loader->load(__DIR__.'/config/config.yml');
 		$loader->load(__DIR__.'/config/services.yml');
 
