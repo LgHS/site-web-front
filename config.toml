@@ -1,0 +1,46 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Liege Hackerspace"
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 10
+
+    [[menu.main]]
+        name = "Projets"
+        url = "https://wiki.lghs.be/projets:start"
+        weight = 20
+
+    [[menu.main]]
+        name = "Wiki"
+        url = "https://wiki.lghs.be"
+        weight = 30
+
+    [[menu.social]]
+        name = "Facebook"
+        pre = "<i class='fa fa-facebook'></i>"
+        url = "https://www.facebook.com/liegehackerspace/"
+        title = "Notre page Facebook"
+        weight = 10
+
+    [[menu.social]]
+        name = "Twitter"
+        pre = "<i class='fa fa-twitter'></i>"
+        url = "https://twitter.com/LgHackerSpace"
+        title = "Notre compte Twitter"
+        weight = 20
+
+    [[menu.social]]
+        name = "Github"
+        pre = "<i class='fa fa-github'></i>"
+        url = "https://github.com/LgHS"
+        title = "Nos repos sur Github"
+        weight = 30
+
+    [[menu.social]]
+        name = "Space API"
+        pre = "<i class='fa fa-space-shuttle'></i>"
+        url = "https://api.lghs.be"
+        title = "Notre Space API"
+        weight = 40

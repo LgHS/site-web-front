@@ -1,0 +1,14 @@
+{{ with .GetPage "footer.md" }}{{ .Content }}{{ end }}
+
+<nav class="social">
+  <ul class="list-unstyled">
+    {{ range .Site.Menus.social.ByWeight }}
+    <li>
+      <a href="{{ .URL }}" title="{{ .Title }}">
+        {{ .Pre }}
+        <span class="hidden">{{ .Name }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
