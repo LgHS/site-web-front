@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/LgHS/Site-Web-Front#readme",
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bootstrap-sass": "^3.4.1"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",
