@@ -11,3 +11,5 @@ app/logs/
 cache/
 
 files/.htaccess
+
+.DS_Store
