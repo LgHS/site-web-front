@@ -31,12 +31,12 @@
     "bootstrap-sass": "^3.4.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.26.7",
     "cli-real-favicon": "0.0.5",
     "font-awesome": "^4.5.0",
     "imagemin-cli": "^2.1.0",
-    "mousetrap": "^1.5.3",
-    "node-sass": "^3.4.2",
+    "mousetrap": "^1.6.5",
+    "node-sass": "^4",
     "onchange": "^2.0.0",
     "parallelshell": "^2.0.0",
     "svgo": "^0.6.1"
