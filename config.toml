@@ -9,12 +9,12 @@ title = "Liege Hackerspace"
 
     [[menu.main]]
         name = "Projets"
-        url = "https://wiki.lghs.be/projets:start"
+        url = "https://wiki.liegehacker.space/shelves/projets"
         weight = 20
 
     [[menu.main]]
         name = "Wiki"
-        url = "https://wiki.lghs.be"
+        url = "https://wiki.liegehacker.space/"
         weight = 30
 
     [[menu.social]]
@@ -41,6 +41,6 @@ title = "Liege Hackerspace"
     [[menu.social]]
         name = "Space API"
         pre = "<i class='fa fa-space-shuttle'></i>"
-        url = "https://api.lghs.be"
+        url = "https://lghs.be/spaceapi"
         title = "Notre Space API"
         weight = 40
