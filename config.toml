@@ -1,6 +1,12 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Liege Hackerspace"
+baseURL = "https://lghs.be/"
+languageCode = "fr-be"
+title = "Liège Hackerspace"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
     [[menu.main]]
         name = "Home"
