@@ -1,0 +1,3 @@
+[submodule "themes/hackcss"]
+	path = themes/hackcss
+	url = https://github.com/ansemjo/hugo-theme-hackcss
