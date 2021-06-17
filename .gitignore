@@ -12,3 +12,5 @@ app/logs/
 cache/
 
 files/.htaccess
+package-lock.json
+package.json
