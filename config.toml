@@ -1,7 +1,7 @@
 baseURL = "https://lghs.be/"
 languageCode = "fr-be"
 title = "Liège Hackerspace"
-theme = "LHGS21"
+theme = "LGHS21"
 relativeURLS = true
 
 [module]
