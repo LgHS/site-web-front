@@ -1,0 +1,8 @@
+{{ $spaceAPI := getJSON "https://lghs.be/spaceapi" }}
+
+
+{{ if $spaceAPI.state.open }}
+	actuellement ouvert
+{{ else }}
+	actuellement fermé
+{{ end }}
