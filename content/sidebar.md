@@ -1,7 +1,7 @@
 ### Heures d'ouverture
 Status: **{{<space-status>}}**
 
-Le mercredi: de 18h10 à 23h
+Le mercredi: de 18h00 à 23h
 
 Le samedi: de 13h à 19h
 
@@ -31,5 +31,5 @@ Ligne 4, arrêt LIEGE Place du Congrès (17min/15stops).
 **En train**
 
 Arrêt SNCB Gare des Guillemins ensuite prendre le bus.
-Quai B - Ligne 4, arrêt LIEGE Place du Congrès (17min/15stops)
-Ou: Quai C - Ligne 17, arrêt BRESSOUX Pont (15min/13stops)
+Quai B - Ligne 4, arrêt LIEGE Place du Congrès (17 min / 15 stops)
+Ou: Quai C - Ligne 17, arrêt BRESSOUX Pont (15 min / 13 stops)
