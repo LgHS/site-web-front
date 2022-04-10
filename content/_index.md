@@ -4,16 +4,15 @@ title: "Liege Hackerspace"
 
 ### Le LgHS c'est quoi ?
 
-Un Hackerspace est un **tiers-lieu**, un espace où des gens avec un intérêt commun 
+Un Hackerspace est un **tiers-lieu**, un espace où des gens ayant un intérêt commun 
 (souvent autour de l'informatique, de la technologie, des sciences, des arts...) 
 peuvent se rencontrer et collaborer.
 
 Les Hackerspaces peuvent être vus comme des laboratoires communautaires ouverts 
-où des gens (les hackers) peuvent partager ressources, savoirs,...
+où des membres (les hackers) peuvent partager ressources, savoirs,...
 
 #### Ce n'est pas un groupe de pirates informatiques
-Le terme "hacker", 
-galvaudé en français, ne se réfère pas ici au "pirate informatique". 
+Le terme "hacker", galvaudé en français, ne se réfère pas ici au "pirate informatique". 
 Il s'agit plutôt d'un bidouilleur, d'une personne curieuse capable d'apprendre et 
 partager le savoir, de se poser des questions et de créer de nouvelles choses.
 
@@ -24,7 +23,7 @@ Flossmanuals résume très bien les  [différences entres ces lieux](http://fr.f
 
 #### C'est un lieu indépendant
 Le financement provient uniquement des membres 
-et de nos différentes activités (workshops, événements, soirées thématiques,...).
+et de nos différentes activités (workshops, événements, soirées thématiques...).
 
 ### Combien ça coûte ?
 Pour devenir membre adhérent, une cotisation de **5€ / an** est demandée.
