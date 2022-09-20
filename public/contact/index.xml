@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contactez-nous on Liège Hackerspace</title>
+    <link>https://lghs.be/contact/</link>
+    <description>Recent content in Contactez-nous on Liège Hackerspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-be</language>
+    
+	<atom:link href="https://lghs.be/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
