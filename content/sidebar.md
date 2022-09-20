@@ -1,12 +1,11 @@
 ### Heures d'ouverture
 Status: **{{<space-status>}}**
 
-Le mercredi: de 18h10 à 23h
+Le mercredi: de 18h00 à 23h
 
 Le samedi: de 13h à 19h
 
-Visiteur ? Nouveau ? Il est recommandé de nous prévenir de votre visite afin que nous
-puissions vous accueillir dans les meilleurs conditions possibles. (Mail, Facebook, Twitter,...)
+Visiteur ? Nouveau ? Vous êtes les bienvenus lors des heures d'ouverture!
 
 ### Wiki
 
