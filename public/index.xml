@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Liege Hackerspace on Liège Hackerspace</title>
+    <link>https://lghs.be/</link>
+    <description>Recent content in Liege Hackerspace on Liège Hackerspace</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-be</language>
+    
+	<atom:link href="https://lghs.be/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://lghs.be/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lghs.be/footer/</guid>
+      <description>MAIL: ping[at]lghs.be
+IRC: #lghs @ irc.libera.chat
+Numéro BCE &amp;gt; 0649.448.256
+Compte: BE58 0689 1071 8879</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://lghs.be/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lghs.be/sidebar/</guid>
+      <description>Heures d&amp;rsquo;ouverture Status:  actuellement fermé 
+Le mercredi: de 18h10 à 23h
+Le samedi: de 13h à 19h
+Visiteur ? Nouveau ? Il est recommandé de nous prévenir de votre visite afin que nous puissions vous accueillir dans les meilleurs conditions possibles. (Mail, Facebook, Twitter,&amp;hellip;)
+Wiki Un Wiki est disponible, vous pouvez y retrouver entre autres les projets, nos statuts, PV de réunion, un début de guidelines et de R.</description>
+    </item>
+    
+  </channel>
+</rss>

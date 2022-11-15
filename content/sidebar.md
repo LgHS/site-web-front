@@ -1,14 +1,12 @@
 ### Heures d'ouverture
-Status: **{{<space-status>}}**
 
 Le mercredi: de 18h00 à 23h
 
-Le samedi: de 13h à 19h
+Le samedi: de 13h à 19h*
 
-* Les horaires d'ouverture / fermeture peuvent varier en fonction de la disponibilité des key-holders *
+Visiteur ? Nouveau ? Vous êtes les bienvenus lors des heures d'ouverture!
 
-Visiteur? Nouveau? N'hésitez pas à nous contacter avant de passer afin d'organiser une visite dans les meilleures conditions!
-
+*\*sauf en cas d'événement particulier ou d'impossibilité d'ouverture par l'un de nos membres*
 ### Wiki
 
 Un Wiki est disponible, vous pouvez y retrouver entre autres les projets, nos statuts, PV de réunions, un début de guidelines et de R.O.I.
