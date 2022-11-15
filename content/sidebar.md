@@ -9,26 +9,32 @@ Visiteur ? Nouveau ? Vous êtes les bienvenus lors des heures d'ouverture!
 *\*sauf en cas d'événement particulier ou d'impossibilité d'ouverture par l'un de nos membres*
 ### Wiki
 
-Un Wiki est disponible, vous pouvez y retrouver entre autres les projets, nos statuts, PV de réunion, un début de guidelines et de R.O.I.
+Un Wiki est disponible, vous pouvez y retrouver entre autres les projets, nos statuts, PV de réunions, un début de guidelines et de R.O.I.
 
 [→ C'est par ici.](https://wiki.liegehacker.space)
 
 ### Le lieu
 [![Plan d'accès au lieu](./dist/images/map.jpg)](https://www.openstreetmap.org/?mlat=50.64189&mlon=5.59001#map=19/50.64189/5.59001&layers=N)
 
-#### Liege Hackerspace
+#### Adresse
 
 Quai de la Dérivation 54, 4020 Liège.
 
-##### Comment s'y rendre
+##### Accès
 
 **En bus**
 
-Ligne 17, arrêt BRESSOUX Pont (15min/13stops),
-Ligne 4, arrêt LIEGE Place du Congrès (17min/15stops).
+Ligne 17, arrêt BRESSOUX Pont (15 min / 13stops),
+Ligne 4, arrêt LIEGE Place du Congrès (17 min / 15stops).
 
 **En train**
 
 Arrêt SNCB Gare des Guillemins ensuite prendre le bus.
-Quai B - Ligne 4, arrêt LIEGE Place du Congrès (17min/15stops)
-Ou: Quai C - Ligne 17, arrêt BRESSOUX Pont (15min/13stops)
+Quai B - Ligne 4, arrêt LIEGE Place du Congrès (17 min / 15 stops)
+Ou: Quai C - Ligne 17, arrêt BRESSOUX Pont (15 min / 13 stops)
+
+**En voiture**
+
+E25/E42, sortie Cheratte, direction Liège (A25). 
+Suivre Liège (Centre), continuer sur N90.
+Serrer sur la bande de droite jusqu'à destination
