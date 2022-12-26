@@ -11,4 +11,5 @@ weight: 40
 * Mail – ping [at] lghs.be
 * Twitter – @LgHackerSpace
 * Facebook – facebook.com/liegehackerspace/
-* Téléphone (Fonctionne parfois) – +32 (0) 4 287 32 26
+* Téléphone – +32 (0) 4 287 32 26
+* EventPhoneVPN - 5447
